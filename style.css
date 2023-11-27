@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    display: grid;
+    position: center;
+    margin: 0px;
+  }
+  
+  .content {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  p, h3 {
+    font-family: optima;
+  }
+  
+  li {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #nav {
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(56, 40, 86);
+  }
+  a {
+    color:rgba(218, 182, 215, 0.9);
+  }
+  
+  i {
+    font-size: 100px;
+    color: rgb(101, 80, 120);
+  }
+  
+  .portrait {
+    width: 150px;
+    border-radius: 20%;
+  }
+  
+  .projects {
+    width: 300px;
+    max-width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px 100px;
+  }
+  
+  .tech {
+    max-width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px 100px;
+  }
